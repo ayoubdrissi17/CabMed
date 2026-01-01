@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-class ControllerTest extends Controller
+class Controllerinscription extends Controller
 {
     public function patient()
     {
-        return view('cabinet');
+        return view('inscription');
     }
 }
